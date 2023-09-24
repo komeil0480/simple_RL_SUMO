@@ -1,1 +1,1 @@
-# simple_RL_SUMO
+In this project, we employ the SUMO (Simulation of Urban Mobility) simulator to develop an intelligent traffic control system using reinforcement learning. Our system leverages a Q-table to make optimal decisions for managing traffic flow. To add a touch of realism and complexity to the simulation, we have included a custom "vehicle-generator.py" script. This script introduces vehicles randomly into the simulation, considering factors such as start time, vehicle type (car or bus), and even the color of vehicles in RGB format.
