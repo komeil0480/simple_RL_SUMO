@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-09-11 13:51:49 by Eclipse SUMO netedit Version 1.18.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    
+    <!-- VTypes -->
+    <vType id="CAR" accel="0.8" decel="4.5" sigma="0.5" length="10" maxSpeed="120"/>
+    <vType id="BUS" accel="0.6" decel="4.5" sigma="0.5" length="15" maxSpeed="70"/>
+
+    <!-- Routes -->
+    <route id="route1" edges="E2 E11"/>
+    <route id="route2" edges="E3 E10"/>
+    <route id="route3" edges="E4 E9"/>
+    <route id="route4" edges="E5 E8"/>
+    <route id="route5" edges="E6 E7"/>
+
+    <!-- Vechiles -->
+    
+   
+    
+    <vehicle id="10" type="CAR" depart="0.24" route="route4" color="0.34,0.66,0.79"/>
+    <vehicle id="91" type="CAR" depart="2.16" route="route3" color="0.60,0.97,0.57"/>
+    <vehicle id="76" type="CAR" depart="2.78" route="route3" color="0.75,0.43,0.24"/>
+    <vehicle id="51" type="BUS" depart="4.05" route="route5" color="0.67,0.42,0.95"/>
+    <vehicle id="31" type="CAR" depart="4.12" route="route1" color="0.28,0.38,0.36"/>
+    <vehicle id="14" type="CAR" depart="4.88" route="route4" color="0.08,0.43,0.50"/>
+    <vehicle id="62" type="BUS" depart="5.47" route="route1" color="0.33,0.65,0.57"/>
+    <vehicle id="25" type="CAR" depart="5.80" route="route1" color="0.36,0.96,0.36"/>
+    <vehicle id="26" type="CAR" depart="6.98" route="route4" color="0.32,0.03,0.97"/>
+    <vehicle id="65" type="CAR" depart="7.37" route="route4" color="0.84,0.06,0.53"/>
+    <vehicle id="53" type="CAR" depart="8.84" route="route5" color="0.86,0.16,0.96"/>
+    <vehicle id="7" type="CAR" depart="9.55" route="route4" color="0.90,0.43,0.30"/>
+    <vehicle id="41" type="BUS" depart="11.36" route="route2" color="0.22,0.10,0.58"/>
+    <vehicle id="49" type="CAR" depart="12.03" route="route3" color="0.19,0.23,0.55"/>
+    <vehicle id="68" type="BUS" depart="13.62" route="route5" color="0.90,0.52,0.09"/>
+    <vehicle id="20" type="CAR" depart="14.21" route="route4" color="0.87,0.39,0.49"/>
+    <vehicle id="16" type="BUS" depart="14.35" route="route1" color="0.35,0.83,0.36"/>
+    <vehicle id="1" type="CAR" depart="14.56" route="route4" color="0.22,0.06,0.30"/>
+    <vehicle id="24" type="CAR" depart="14.84" route="route5" color="0.35,0.71,0.90"/>
+    <vehicle id="18" type="CAR" depart="15.64" route="route4" color="0.65,0.13,0.95"/>
+    <vehicle id="69" type="BUS" depart="15.98" route="route3" color="0.50,0.33,0.47"/>
+    <vehicle id="45" type="CAR" depart="17.44" route="route4" color="0.39,0.95,0.91"/>
+    <vehicle id="56" type="CAR" depart="18.49" route="route1" color="0.70,0.21,0.33"/>
+    <vehicle id="5" type="BUS" depart="19.10" route="route2" color="0.13,0.23,0.32"/>
+    <vehicle id="2" type="CAR" depart="20.51" route="route3" color="0.13,0.53,0.19"/>
+    <vehicle id="96" type="BUS" depart="20.65" route="route5" color="0.54,0.30,0.46"/>
+    <vehicle id="22" type="CAR" depart="21.44" route="route4" color="0.51,0.63,0.68"/>
+    <vehicle id="75" type="CAR" depart="23.14" route="route5" color="0.13,0.25,0.97"/>
+    <vehicle id="55" type="CAR" depart="26.64" route="route2" color="0.97,0.91,0.99"/>
+    <vehicle id="97" type="CAR" depart="27.18" route="route5" color="0.80,0.18,0.74"/>
+    <vehicle id="79" type="CAR" depart="28.37" route="route2" color="0.16,0.26,0.68"/>
+    <vehicle id="44" type="CAR" depart="29.12" route="route1" color="0.65,0.12,0.57"/>
+    <vehicle id="83" type="CAR" depart="29.26" route="route3" color="0.08,0.84,0.31"/>
+    <vehicle id="35" type="BUS" depart="29.86" route="route2" color="0.74,0.85,0.27"/>
+    <vehicle id="39" type="CAR" depart="30.57" route="route4" color="0.40,0.71,0.02"/>
+    <vehicle id="21" type="BUS" depart="30.62" route="route2" color="0.52,0.92,0.69"/>
+    <vehicle id="70" type="CAR" depart="30.79" route="route4" color="0.73,0.03,0.59"/>
+    <vehicle id="46" type="CAR" depart="32.35" route="route2" color="0.73,0.53,0.99"/>
+    <vehicle id="12" type="CAR" depart="34.55" route="route3" color="0.80,0.72,1.00"/>
+    <vehicle id="3" type="CAR" depart="36.02" route="route3" color="0.32,0.28,0.54"/>
+    <vehicle id="47" type="CAR" depart="37.65" route="route4" color="0.55,0.56,0.94"/>
+    <vehicle id="66" type="CAR" depart="37.68" route="route1" color="0.15,0.57,0.89"/>
+    <vehicle id="36" type="BUS" depart="37.76" route="route2" color="0.96,0.72,0.65"/>
+    <vehicle id="40" type="CAR" depart="40.43" route="route2" color="0.78,0.54,0.46"/>
+    <vehicle id="80" type="CAR" depart="40.48" route="route2" color="0.29,0.60,0.93"/>
+    <vehicle id="61" type="BUS" depart="41.74" route="route2" color="0.60,0.30,0.89"/>
+    <vehicle id="48" type="CAR" depart="42.18" route="route4" color="0.84,0.97,0.15"/>
+    <vehicle id="23" type="CAR" depart="42.75" route="route2" color="0.71,0.65,0.76"/>
+    <vehicle id="30" type="BUS" depart="43.25" route="route5" color="0.50,0.92,0.19"/>
+    <vehicle id="29" type="CAR" depart="43.98" route="route4" color="0.18,0.62,0.03"/>
+    <vehicle id="63" type="BUS" depart="44.40" route="route5" color="0.20,0.87,0.97"/>
+    <vehicle id="88" type="CAR" depart="44.51" route="route1" color="0.71,0.64,0.48"/>
+    <vehicle id="67" type="BUS" depart="45.83" route="route2" color="0.59,0.99,0.64"/>
+    <vehicle id="95" type="CAR" depart="45.99" route="route4" color="0.68,0.15,0.96"/>
+    <vehicle id="59" type="BUS" depart="48.31" route="route4" color="0.00,0.51,0.37"/>
+    <vehicle id="42" type="BUS" depart="51.89" route="route4" color="0.76,0.77,0.32"/>
+    <vehicle id="98" type="CAR" depart="51.95" route="route2" color="0.70,0.40,0.18"/>
+    <vehicle id="86" type="CAR" depart="52.72" route="route4" color="0.45,0.03,0.21"/>
+    <vehicle id="6" type="CAR" depart="54.17" route="route3" color="0.72,0.32,0.28"/>
+    <vehicle id="57" type="CAR" depart="54.34" route="route3" color="0.18,0.67,0.04"/>
+    <vehicle id="93" type="CAR" depart="55.25" route="route3" color="0.98,0.61,0.84"/>
+    <vehicle id="89" type="CAR" depart="57.57" route="route5" color="0.03,0.60,0.32"/>
+    <vehicle id="37" type="CAR" depart="57.57" route="route2" color="0.56,0.98,0.88"/>
+    <vehicle id="15" type="CAR" depart="57.69" route="route5" color="0.70,0.30,0.02"/>
+    <vehicle id="38" type="CAR" depart="58.50" route="route5" color="0.08,0.72,0.65"/>
+    <vehicle id="17" type="CAR" depart="58.66" route="route4" color="0.91,0.84,0.89"/>
+    <vehicle id="73" type="CAR" depart="59.32" route="route4" color="0.52,0.24,0.79"/>
+    <vehicle id="52" type="CAR" depart="60.90" route="route2" color="0.23,0.60,0.48"/>
+    <vehicle id="85" type="CAR" depart="63.65" route="route5" color="0.39,0.46,1.00"/>
+    <vehicle id="71" type="CAR" depart="64.47" route="route1" color="0.05,0.90,0.16"/>
+    <vehicle id="64" type="CAR" depart="64.78" route="route1" color="0.63,0.97,0.92"/>
+    <vehicle id="9" type="BUS" depart="65.84" route="route2" color="0.19,0.80,0.94"/>
+    <vehicle id="34" type="CAR" depart="66.03" route="route2" color="0.75,0.29,0.98"/>
+    <vehicle id="77" type="CAR" depart="67.09" route="route3" color="0.06,0.32,0.29"/>
+    <vehicle id="81" type="CAR" depart="67.36" route="route2" color="0.43,0.84,0.90"/>
+    <vehicle id="92" type="CAR" depart="67.56" route="route2" color="0.48,0.75,0.10"/>
+    <vehicle id="19" type="CAR" depart="67.78" route="route1" color="0.98,0.31,0.65"/>
+    <vehicle id="32" type="CAR" depart="68.26" route="route5" color="0.19,0.85,0.21"/>
+    <vehicle id="72" type="CAR" depart="68.95" route="route4" color="0.12,0.15,0.64"/>
+    <vehicle id="33" type="CAR" depart="69.19" route="route1" color="0.69,0.86,0.08"/>
+    <vehicle id="11" type="CAR" depart="72.34" route="route2" color="0.22,0.96,0.76"/>
+    <vehicle id="94" type="CAR" depart="72.90" route="route4" color="0.67,0.68,0.11"/>
+    <vehicle id="99" type="CAR" depart="73.01" route="route1" color="0.70,0.27,0.27"/>
+    <vehicle id="84" type="CAR" depart="73.47" route="route3" color="0.56,0.46,0.50"/>
+    <vehicle id="74" type="CAR" depart="73.89" route="route4" color="0.75,0.90,0.75"/>
+    <vehicle id="58" type="CAR" depart="75.49" route="route2" color="0.77,0.22,0.75"/>
+    <vehicle id="4" type="CAR" depart="76.86" route="route4" color="0.90,0.37,0.64"/>
+    <vehicle id="0" type="CAR" depart="77.92" route="route3" color="0.57,0.27,0.70"/>
+    <vehicle id="82" type="CAR" depart="78.48" route="route4" color="0.14,0.63,0.73"/>
+    <vehicle id="60" type="CAR" depart="78.82" route="route1" color="0.55,0.15,0.21"/>
+    <vehicle id="50" type="BUS" depart="79.55" route="route3" color="0.52,0.83,0.28"/>
+    <vehicle id="13" type="CAR" depart="80.14" route="route1" color="0.86,0.02,0.40"/>
+    <vehicle id="90" type="CAR" depart="82.55" route="route3" color="0.37,0.09,0.40"/>
+    <vehicle id="54" type="CAR" depart="83.96" route="route2" color="0.40,0.41,0.01"/>
+    <vehicle id="8" type="CAR" depart="86.37" route="route4" color="0.14,0.14,0.75"/>
+    <vehicle id="78" type="CAR" depart="86.77" route="route1" color="0.67,0.30,0.53"/>
+    <vehicle id="28" type="BUS" depart="87.65" route="route4" color="0.75,0.03,0.25"/>
+    <vehicle id="43" type="CAR" depart="94.81" route="route3" color="0.90,0.69,0.04"/>
+    <vehicle id="87" type="CAR" depart="95.63" route="route1" color="0.38,0.11,0.17"/>
+    <vehicle id="27" type="CAR" depart="96.79" route="route5" color="0.48,0.61,0.04"/>
+</routes>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-09-11 15:22:20 by Eclipse SUMO sumo Version 1.18.0 -->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="TEST_SUMO_CONFIG.net.xml"/>
+        <route-files value="TEST_SUMO_CONFIG.rou.xml"/>
+    </input>
+
+    <!-- Specify simulation parameters -->
+    <time>
+        <begin value="0"/>          <!-- Start time -->
+        <end value="3600"/>        <!-- End time (e.g., 3600 seconds = 1 hour) -->
+        <step-length value="1"/>    <!-- Time step (delay) between simulation steps in seconds -->
+    </time>
+
+</configuration>
